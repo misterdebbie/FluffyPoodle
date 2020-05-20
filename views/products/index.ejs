@@ -13,9 +13,9 @@
       <h3>YANG&copy;</h3>
     <nav>
       <ul>
-        <li><a href="">First Link</a></li>
-        <li><a href="">Second Link</a></li>
-        <li><a href="">Third Link</a></li>
+        <li><a href="/one">First Link</a></li>
+        <li><a href="/two">Second Link</a></li>
+        <li><a href="/three">Third Link</a></li>
       </ul>
     </nav>
     </header>
@@ -42,6 +42,16 @@
         <p>Bacon ipsum dolor sit amet pastrami ribeye sausage, sirloin short ribs pork belly strip steak tenderloin boudin. Landjaeger beef ham hock, doner bacon pork belly filet mignon tenderloin short loin beef ribs tongue. </p></div>
     </div>
   </div>
+  <% bunnies.forEach(bunny => { %>
+<div class="">
+  <h4>
+    <a href="<%= `/bunnies/${bunny.id}` %>">
+      <%= bunny.name %>
+    </a>
+  </h4>
+  <p><%= bunny.message %></p>
+</div>
+<% }) %>
     <footer class="row">
       <div class="col-3">3 Columns</div>
       <div class="col-6">6 Columns</div>

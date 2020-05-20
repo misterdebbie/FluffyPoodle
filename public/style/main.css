@@ -1,0 +1,160 @@
+* {
+    border: 1px solid pink !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header h3 {
+  text-align: center;
+  background-color: lightseagreen;
+  padding: 12px;
+}
+
+header nav {
+  text-align: center;
+}
+
+header li {
+  display: inline;
+  padding-right: 8px;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.mainArticle {
+  border: 2px solid yellow !important;
+}
+
+.mainArticle h3 {
+  text-align: center;
+  color: lightseagreen;
+}
+
+.mainArticle img {
+  width: 270px;
+  max-height: 370px;
+  margin: auto;
+  border: 3px solid green !important;
+  display: block;
+}
+
+.mainArticle p {
+  max-width: 400px;
+  max-height: 300px;
+  margin: auto;
+}
+
+/*@media only screen and (min-width: 500px) {
+  .mainArticle p {
+    max-width: 50%;
+    margin: auto;
+    border: 3px solid purple !important;
+    float: right;
+  }
+}*/
+
+
+img {
+ max-width: 400px !important;
+ max-height: 200px;
+ margin: auto;
+ border: 3px solid blue !important;
+ display: block;
+}
+
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  nav {
+    border: none !important;
+  }
+  nav ul li {
+    display: block;
+    font-weight: bold;
+    padding: 12px;
+    border: none !important;
+  }
+
+  a {
+    color: yellow !important;
+    border: none !important;
+  }
+  .mainArticle h3 {
+    font-size: 2em;
+  }
+  .mainArticle p {
+    width: 80%;
+    padding: 10px;
+    border: none !important;
+  }
+  .row {
+      background-color: pink !important;
+      display: unset;
+  }
+  .col-4 {
+    width: 80% !important;
+    border: 3px solid black !important;
+  }
+}

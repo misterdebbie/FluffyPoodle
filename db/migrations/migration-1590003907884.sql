@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS bunny (
+  id BIGSERIAL PRIMARY KEY,
+  name VARCHAR(255),
+  message TEXT
+);
